@@ -14,7 +14,6 @@ int main()
     Aluno maiorMedia;
 
     do{
-        printf("--- Cadastro de Aluno ---\n");
         printf("--- MENU ---\n");
         printf("[1] - Cadastrar Aluno\n");
         printf("[2] - Media de cada aluno\n");
