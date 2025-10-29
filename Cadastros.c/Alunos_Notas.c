@@ -57,7 +57,7 @@ int main()
                         soma += calcularMedia.notas[i];
                     }
                     float media = soma / 3;
-                    printf("Aluno: %s\n, Matricula: %d\n, Media: %.2f\n", calcularMedia.nome, calcularMedia.matricula, media);
+                    printf("Aluno: %s, Matricula: %d, Media: %.2f\n", calcularMedia.nome, calcularMedia.matricula, media);
                 }
                 fclose(arquivoRead);
                 break;
@@ -111,6 +111,8 @@ int main()
                         }
                     }
                 }
+                printf("Aluno com maior media:\nNome: %s\nMatricula: %d\nMedia: %.2f\n", maiorMedia.nome, maiorMedia.matricula, (maiorMedia.notas[0] + maiorMedia.notas[1] + maiorMedia.notas[2]) / 3);
+                fclose(arquivoMaior);
                 break;
             case '0':
                 printf("Saindo...\n");
