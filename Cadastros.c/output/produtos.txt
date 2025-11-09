@@ -1,0 +1,8 @@
+Nome: Mesa
+Codigo: 1234
+Preco: 14.85
+Quantidade: 20
+Nome: Sandalia
+Codigo: 1579
+Preco: 25.00
+Quantidade: 150
