@@ -6,3 +6,7 @@ Nome: Sandalia
 Codigo: 1579
 Preco: 25.00
 Quantidade: 150
+Nome: Mesa
+Codigo: 1456
+Preco: 54.90
+Quantidade: 10
