@@ -12,7 +12,7 @@ int main()
         for(int i = 0; i <= 10; i++){
         printf("%d X %d= %d\n", num, i, num * i);
         }
-        printf("Desejar digitar outro numero?: (s/n)");
+        printf("Desejar digitar outro numero? (s/n): ");
         scanf(" %c", &op);
     }while(op == 's' || op == 'S');
 
