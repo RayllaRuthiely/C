@@ -21,6 +21,9 @@ int main()
         }
         printf("Deseja continuar? (s/n): ");
         scanf(" %c", &op);
+        if(op == 'N' || op == 'n') {
+				printf("Saindo...\n");
+		}
 
     }while(op == 's' || op == 'S');
 }
