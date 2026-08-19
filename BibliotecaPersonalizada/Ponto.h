@@ -1,6 +1,10 @@
 #ifndef PONTO_H
 #define PONTO_H
 
+/**
+ * Estrutura que representa um ponto no plano cartesiano.
+ * Contém as coordenadas x e y do ponto.
+ */
 typedef struct ponto Ponto;
 
 //Criar um novo ponto
